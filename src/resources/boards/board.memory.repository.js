@@ -1,4 +1,5 @@
 const DB = require('../../common/inMemoryDB');
+const { ErrorInfo } = require('../../helpers/error');
 
 const getAll = async () => DB.getAllBoards();
 
@@ -6,7 +7,7 @@ const get = async id => {
   const board = DB.getBoard(id);
 
   if (!board) {
-    throw new Error(`The board with id: ${id} was not found`);
+    throw new ErrorInfo(404, `The board with id: ${id} was not found`);
   }
 
   return board;

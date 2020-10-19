@@ -1,4 +1,5 @@
 const DB = require('../../common/inMemoryDB');
+const { ErrorInfo } = require('../../helpers/error');
 
 const getAll = async id => DB.getTasksByBoardId(id);
 
@@ -6,7 +7,7 @@ const get = async (boardId, taskId) => {
   const task = await DB.getTaskByBoardIdAndTaskId(boardId, taskId);
 
   if (!task) {
-    throw new Error(`The task with id: ${taskId} was not found`);
+    throw new ErrorInfo(404, `The task with id: ${taskId} was not found`);
   }
   return task;
 };

@@ -1,4 +1,5 @@
 const DB = require('../../common/inMemoryDB');
+const { ErrorInfo } = require('../../helpers/error');
 
 const getAll = async () => DB.getAllUsers();
 
@@ -6,7 +7,7 @@ const get = async id => {
   const user = await DB.getUser(id);
 
   if (!user) {
-    throw new Error(`The user with id: ${id} was not found`);
+    throw new ErrorInfo(404, `The user with id: ${id} was not found`);
   }
 
   return user;
