@@ -8,6 +8,7 @@ const taskRouter = require('./resources/tasks/task.router');
 const logger = require('./helpers/logger');
 const { finished } = require('stream');
 const { handleError } = require('./helpers/error');
+const { INTERNAL_SERVER_ERROR } = require('http-status-codes');
 
 const app = express();
 const swaggerDocument = YAML.load(path.join(__dirname, '../doc/api.yaml'));
@@ -42,17 +43,17 @@ app.use((err, req, res, next) => {
 process
   .on('uncaughtException', err => {
     const error = {
-      statusCode: 500,
+      statusCode: INTERNAL_SERVER_ERROR,
       message: `Uncaught Exception: ${err.message}`
     };
     logger(null, error);
   })
   .on('unhandledRejection', err => {
     const error = {
-      statusCode: 500,
+      statusCode: INTERNAL_SERVER_ERROR,
       message: `Unhandled Rejection: ${err.message}`
     };
     logger(null, error);
   });
-// throw new Error('oops');
+
 module.exports = app;

@@ -1,6 +1,7 @@
 const router = require('express').Router();
 const User = require('./user.model');
 const usersService = require('./user.service');
+const { OK, NOT_FOUND } = require('http-status-codes');
 
 router.route('/').get(async (req, res, next) => {
   try {
@@ -14,7 +15,11 @@ router.route('/').get(async (req, res, next) => {
 router.route('/:id').get(async (req, res, next) => {
   try {
     const user = await usersService.get(req.params.id);
-    res.json(User.toResponse(user));
+    if (user) {
+      res.status(OK).json(User.toResponse(user));
+    } else {
+      res.status(NOT_FOUND).send(`The user with ${req.params.id} not found`);
+    }
   } catch (err) {
     return next(err);
   }
@@ -37,9 +42,7 @@ router.route('/').post(async (req, res, next) => {
 
 router.route('/:id').put(async (req, res, next) => {
   try {
-    const user = await usersService.update(
-      User.fromRequest({ ...req.body, id: req.params.id })
-    );
+    const user = await usersService.update(req.params.id, req.body);
     res.json(User.toResponse(user));
   } catch (err) {
     return next(err);
@@ -49,8 +52,10 @@ router.route('/:id').put(async (req, res, next) => {
 router.route('/:id').delete(async (req, res, next) => {
   try {
     const id = req.params.id;
-    await usersService.remove(req.params.id);
-    res.json(`The user with id: ${id} was deleted`);
+    const isRemoved = await usersService.remove(req.params.id);
+    if (isRemoved) {
+      res.status(OK).json(`The user with ${id} has been deleted`);
+    } else res.status(NOT_FOUND).json(`The user with ${id} not found`);
   } catch (err) {
     return next(err);
   }
