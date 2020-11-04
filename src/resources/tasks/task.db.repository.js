@@ -4,7 +4,7 @@ const getAll = async id => Task.find({ boardId: id });
 
 const get = async (boardId, taskId) => Task.findById(taskId);
 
-const create = async task => Task.create(task);
+const create = async taskData => Task.create(taskData);
 
 const update = async (taskId, boardId, taskData) =>
   Task.updateOne({ _id: taskId }, taskData);

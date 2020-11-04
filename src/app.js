@@ -1,10 +1,13 @@
 const express = require('express');
+require('express-async-errors');
 const swaggerUI = require('swagger-ui-express');
 const path = require('path');
 const YAML = require('yamljs');
 const userRouter = require('./resources/users/user.router');
 const boardRouter = require('./resources/boards/board.router');
 const taskRouter = require('./resources/tasks/task.router');
+const authRouter = require('./resources/authentication/auth.router');
+const checkToken = require('./helpers/checkToken');
 const logger = require('./helpers/logger');
 const { finished } = require('stream');
 const { handleError } = require('./helpers/error');
@@ -22,17 +25,10 @@ app.use((req, res, next) => {
   next();
 });
 
-app.use('/', (req, res, next) => {
-  if (req.originalUrl === '/') {
-    res.send('Service is running!');
-    return;
-  }
-  next();
-});
-
-app.use('/users', userRouter);
-app.use('/boards', boardRouter);
-app.use('/boards', taskRouter);
+app.use('/login', authRouter);
+app.use('/users', checkToken, userRouter);
+app.use('/boards', checkToken, boardRouter);
+app.use('/boards', checkToken, taskRouter);
 
 app.use((err, req, res, next) => {
   handleError(err, res);

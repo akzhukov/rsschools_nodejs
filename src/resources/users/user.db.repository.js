@@ -5,13 +5,22 @@ const getAll = async () => User.find({});
 
 const get = async id => User.findById(id);
 
-const create = async user => User.create(user);
+const getByLogin = async login => User.findOne({ login });
 
-const update = async (id, userData) => User.updateOne({ _id: id }, userData);
+const create = async data => User.create(data);
+
+const update = async (id, data) => User.updateOne({ _id: id }, data);
 
 const remove = async id => {
   await Task.updateMany({ userId: id }, { userId: null });
   return (await User.deleteOne({ _id: id })).ok;
 };
 
-module.exports = { getAll, get, create, update, remove };
+module.exports = {
+  getAll,
+  get,
+  getByLogin,
+  create,
+  update,
+  remove
+};

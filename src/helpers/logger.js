@@ -15,17 +15,10 @@ const logger = (req, err) => {
       url: `${req.protocol}://${req.get('host')}${req.originalUrl}`,
       method: req.method,
       params: JSON.stringify(req.query),
-      body: JSON.stringify(toSecurityLog(req.body))
+      body: JSON.stringify(req.body)
     };
     winston.info(log);
   }
-};
-
-const toSecurityLog = body => {
-  if (body.password) {
-    return { ...body, password: 'secret information' };
-  }
-  return body;
 };
 
 module.exports = logger;
