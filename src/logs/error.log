@@ -1,0 +1,787 @@
+{
+  message: 'Unauthorized user!',
+  statusCode: 401,
+  url: 'http://localhost:4000/boards/12345/tasks',
+  level: 'error',
+  timestamp: '2020-11-04T03:46:18.832Z'
+}
+{
+  message: 'Unauthorized user!',
+  statusCode: 401,
+  url: 'http://localhost:4000/boards',
+  level: 'error',
+  timestamp: '2020-11-04T03:46:18.848Z'
+}
+{
+  message: 'Unauthorized user!',
+  statusCode: 401,
+  url: 'http://localhost:4000/boards/12345/tasks/12345',
+  level: 'error',
+  timestamp: '2020-11-04T03:46:18.854Z'
+}
+{
+  message: 'Unauthorized user!',
+  statusCode: 401,
+  url: 'http://localhost:4000/users',
+  level: 'error',
+  timestamp: '2020-11-04T03:46:18.866Z'
+}
+{
+  message: 'Unauthorized user!',
+  statusCode: 401,
+  url: 'http://localhost:4000/boards/12345',
+  level: 'error',
+  timestamp: '2020-11-04T03:46:18.896Z'
+}
+{
+  message: 'Unauthorized user!',
+  statusCode: 401,
+  url: 'http://localhost:4000/boards/12345/tasks',
+  level: 'error',
+  timestamp: '2020-11-04T03:46:18.900Z'
+}
+{
+  message: 'Unauthorized user!',
+  statusCode: 401,
+  url: 'http://localhost:4000/users/123',
+  level: 'error',
+  timestamp: '2020-11-04T03:46:18.912Z'
+}
+{
+  message: 'Unauthorized user!',
+  statusCode: 401,
+  url: 'http://localhost:4000/boards',
+  level: 'error',
+  timestamp: '2020-11-04T03:46:18.917Z'
+}
+{
+  message: 'Unauthorized user!',
+  statusCode: 401,
+  url: 'http://localhost:4000/boards/12345/tasks/12345',
+  level: 'error',
+  timestamp: '2020-11-04T03:46:18.927Z'
+}
+{
+  message: 'Unauthorized user!',
+  statusCode: 401,
+  url: 'http://localhost:4000/users',
+  level: 'error',
+  timestamp: '2020-11-04T03:46:18.933Z'
+}
+{
+  message: 'Unauthorized user!',
+  statusCode: 401,
+  url: 'http://localhost:4000/boards/12345',
+  level: 'error',
+  timestamp: '2020-11-04T03:46:18.936Z'
+}
+{
+  message: 'Unauthorized user!',
+  statusCode: 401,
+  url: 'http://localhost:4000/boards/12345/tasks/12345',
+  level: 'error',
+  timestamp: '2020-11-04T03:46:18.948Z'
+}
+{
+  message: 'Unauthorized user!',
+  statusCode: 401,
+  url: 'http://localhost:4000/users/12345',
+  level: 'error',
+  timestamp: '2020-11-04T03:46:18.975Z'
+}
+{
+  message: 'Unauthorized user!',
+  statusCode: 401,
+  url: 'http://localhost:4000/boards/12345',
+  level: 'error',
+  timestamp: '2020-11-04T03:46:19.000Z'
+}
+{
+  message: 'Unauthorized user!',
+  statusCode: 401,
+  url: 'http://localhost:4000/users/12345',
+  level: 'error',
+  timestamp: '2020-11-04T03:46:19.014Z'
+}
+{
+  message: 'The task with id: 3136e12e-8833-4cb7-9f26-f552119edadd not found',
+  statusCode: 404,
+  url: 'http://localhost:4000/boards/54a382e5-99ae-4ab5-ab5a-98f501aa25da/tasks/3136e12e-8833-4cb7-9f26-f552119edadd',
+  level: 'error',
+  timestamp: '2020-11-04T03:46:20.008Z'
+}
+{
+  message: 'The board with id: 7d7c3989-4c36-4de1-8032-1ce8660674b9 not found',
+  statusCode: 404,
+  url: 'http://localhost:4000/boards/7d7c3989-4c36-4de1-8032-1ce8660674b9',
+  level: 'error',
+  timestamp: '2020-11-04T03:46:20.094Z'
+}
+{
+  message: 'The task with id: adacb17b-e4f6-4962-b815-270760719c79 not found',
+  statusCode: 404,
+  url: 'http://localhost:4000/boards/67c6d207-6a73-46ac-9cb5-ab0f573fa0fb/tasks/adacb17b-e4f6-4962-b815-270760719c79',
+  level: 'error',
+  timestamp: '2020-11-04T03:46:20.501Z'
+}
+{
+  message: 'The task with id: 5ab3866b-bc2d-48bb-871d-45d3624e8338 not found',
+  statusCode: 404,
+  url: 'http://localhost:4000/boards/67c6d207-6a73-46ac-9cb5-ab0f573fa0fb/tasks/5ab3866b-bc2d-48bb-871d-45d3624e8338',
+  level: 'error',
+  timestamp: '2020-11-04T03:46:20.512Z'
+}
+{
+  message: 'The task with id: 88cdcf25-af56-4633-87ab-bde7417ff463 not found',
+  statusCode: 404,
+  url: 'http://localhost:4000/boards/67c6d207-6a73-46ac-9cb5-ab0f573fa0fb/tasks/88cdcf25-af56-4633-87ab-bde7417ff463',
+  level: 'error',
+  timestamp: '2020-11-04T03:46:20.516Z'
+}
+{
+  message: 'The task with id: 9dd54380-99fa-4d51-bed7-af1bd2cbb142 not found',
+  statusCode: 404,
+  url: 'http://localhost:4000/boards/67c6d207-6a73-46ac-9cb5-ab0f573fa0fb/tasks/9dd54380-99fa-4d51-bed7-af1bd2cbb142',
+  level: 'error',
+  timestamp: '2020-11-04T03:46:20.529Z'
+}
+{
+  message: 'The task with id: ad42a270-083d-43a7-926d-3e5a0c468785 not found',
+  statusCode: 404,
+  url: 'http://localhost:4000/boards/67c6d207-6a73-46ac-9cb5-ab0f573fa0fb/tasks/ad42a270-083d-43a7-926d-3e5a0c468785',
+  level: 'error',
+  timestamp: '2020-11-04T03:46:20.534Z'
+}
+{
+  message: 'Unauthorized user!',
+  statusCode: 401,
+  url: 'http://localhost:4000/boards/12345/tasks',
+  level: 'error',
+  timestamp: '2020-11-04T11:34:46.240Z'
+}
+{
+  message: 'Unauthorized user!',
+  statusCode: 401,
+  url: 'http://localhost:4000/boards',
+  level: 'error',
+  timestamp: '2020-11-04T11:34:46.290Z'
+}
+{
+  message: 'Unauthorized user!',
+  statusCode: 401,
+  url: 'http://localhost:4000/users',
+  level: 'error',
+  timestamp: '2020-11-04T11:34:46.297Z'
+}
+{
+  message: 'Unauthorized user!',
+  statusCode: 401,
+  url: 'http://localhost:4000/boards/12345/tasks/12345',
+  level: 'error',
+  timestamp: '2020-11-04T11:34:46.301Z'
+}
+{
+  message: 'Unauthorized user!',
+  statusCode: 401,
+  url: 'http://localhost:4000/boards/12345',
+  level: 'error',
+  timestamp: '2020-11-04T11:34:46.332Z'
+}
+{
+  message: 'Unauthorized user!',
+  statusCode: 401,
+  url: 'http://localhost:4000/users/123',
+  level: 'error',
+  timestamp: '2020-11-04T11:34:46.336Z'
+}
+{
+  message: 'Unauthorized user!',
+  statusCode: 401,
+  url: 'http://localhost:4000/boards/12345/tasks',
+  level: 'error',
+  timestamp: '2020-11-04T11:34:46.340Z'
+}
+{
+  message: 'Unauthorized user!',
+  statusCode: 401,
+  url: 'http://localhost:4000/boards',
+  level: 'error',
+  timestamp: '2020-11-04T11:34:46.354Z'
+}
+{
+  message: 'Unauthorized user!',
+  statusCode: 401,
+  url: 'http://localhost:4000/users',
+  level: 'error',
+  timestamp: '2020-11-04T11:34:46.367Z'
+}
+{
+  message: 'Unauthorized user!',
+  statusCode: 401,
+  url: 'http://localhost:4000/boards/12345/tasks/12345',
+  level: 'error',
+  timestamp: '2020-11-04T11:34:46.371Z'
+}
+{
+  message: 'Unauthorized user!',
+  statusCode: 401,
+  url: 'http://localhost:4000/boards/12345',
+  level: 'error',
+  timestamp: '2020-11-04T11:34:46.375Z'
+}
+{
+  message: 'Unauthorized user!',
+  statusCode: 401,
+  url: 'http://localhost:4000/users/12345',
+  level: 'error',
+  timestamp: '2020-11-04T11:34:46.389Z'
+}
+{
+  message: 'Unauthorized user!',
+  statusCode: 401,
+  url: 'http://localhost:4000/boards/12345/tasks/12345',
+  level: 'error',
+  timestamp: '2020-11-04T11:34:46.401Z'
+}
+{
+  message: 'Unauthorized user!',
+  statusCode: 401,
+  url: 'http://localhost:4000/boards/12345',
+  level: 'error',
+  timestamp: '2020-11-04T11:34:46.438Z'
+}
+{
+  message: 'Unauthorized user!',
+  statusCode: 401,
+  url: 'http://localhost:4000/users/12345',
+  level: 'error',
+  timestamp: '2020-11-04T11:34:46.457Z'
+}
+{
+  message: 'The task with id: ab5a61da-5b4d-4ee3-af65-7f679690ed0c not found',
+  statusCode: 404,
+  url: 'http://localhost:4000/boards/9d1f0ca0-bccc-4744-ac68-5822f870c62e/tasks/ab5a61da-5b4d-4ee3-af65-7f679690ed0c',
+  level: 'error',
+  timestamp: '2020-11-04T11:34:47.453Z'
+}
+{
+  message: 'The board with id: 87accaef-9fc6-428d-9886-2645c564e95b not found',
+  statusCode: 404,
+  url: 'http://localhost:4000/boards/87accaef-9fc6-428d-9886-2645c564e95b',
+  level: 'error',
+  timestamp: '2020-11-04T11:34:47.718Z'
+}
+{
+  message: 'Unauthorized user!',
+  statusCode: 401,
+  url: 'http://localhost:4000/users',
+  level: 'error',
+  timestamp: '2020-11-04T11:35:35.612Z'
+}
+{
+  message: 'Unauthorized user!',
+  statusCode: 401,
+  url: 'http://localhost:4000/boards/12345/tasks',
+  level: 'error',
+  timestamp: '2020-11-04T11:35:35.624Z'
+}
+{
+  message: 'Unauthorized user!',
+  statusCode: 401,
+  url: 'http://localhost:4000/boards',
+  level: 'error',
+  timestamp: '2020-11-04T11:35:35.629Z'
+}
+{
+  message: 'Unauthorized user!',
+  statusCode: 401,
+  url: 'http://localhost:4000/users/123',
+  level: 'error',
+  timestamp: '2020-11-04T11:35:35.633Z'
+}
+{
+  message: 'Unauthorized user!',
+  statusCode: 401,
+  url: 'http://localhost:4000/boards/12345/tasks/12345',
+  level: 'error',
+  timestamp: '2020-11-04T11:35:35.661Z'
+}
+{
+  message: 'Unauthorized user!',
+  statusCode: 401,
+  url: 'http://localhost:4000/boards/12345',
+  level: 'error',
+  timestamp: '2020-11-04T11:35:35.666Z'
+}
+{
+  message: 'Unauthorized user!',
+  statusCode: 401,
+  url: 'http://localhost:4000/users',
+  level: 'error',
+  timestamp: '2020-11-04T11:35:35.674Z'
+}
+{
+  message: 'Unauthorized user!',
+  statusCode: 401,
+  url: 'http://localhost:4000/boards/12345/tasks',
+  level: 'error',
+  timestamp: '2020-11-04T11:35:35.681Z'
+}
+{
+  message: 'Unauthorized user!',
+  statusCode: 401,
+  url: 'http://localhost:4000/boards',
+  level: 'error',
+  timestamp: '2020-11-04T11:35:35.692Z'
+}
+{
+  message: 'Unauthorized user!',
+  statusCode: 401,
+  url: 'http://localhost:4000/users/12345',
+  level: 'error',
+  timestamp: '2020-11-04T11:35:35.697Z'
+}
+{
+  message: 'Unauthorized user!',
+  statusCode: 401,
+  url: 'http://localhost:4000/boards/12345/tasks/12345',
+  level: 'error',
+  timestamp: '2020-11-04T11:35:35.708Z'
+}
+{
+  message: 'Unauthorized user!',
+  statusCode: 401,
+  url: 'http://localhost:4000/boards/12345',
+  level: 'error',
+  timestamp: '2020-11-04T11:35:35.726Z'
+}
+{
+  message: 'Unauthorized user!',
+  statusCode: 401,
+  url: 'http://localhost:4000/users/12345',
+  level: 'error',
+  timestamp: '2020-11-04T11:35:35.732Z'
+}
+{
+  message: 'Unauthorized user!',
+  statusCode: 401,
+  url: 'http://localhost:4000/boards/12345/tasks/12345',
+  level: 'error',
+  timestamp: '2020-11-04T11:35:35.744Z'
+}
+{
+  message: 'Unauthorized user!',
+  statusCode: 401,
+  url: 'http://localhost:4000/boards/12345',
+  level: 'error',
+  timestamp: '2020-11-04T11:35:35.760Z'
+}
+{
+  message: 'The task with id: feb92bb2-b45c-4603-9911-77cb1b142277 not found',
+  statusCode: 404,
+  url: 'http://localhost:4000/boards/3d672fe4-b5c1-4769-8f91-77c2984d487e/tasks/feb92bb2-b45c-4603-9911-77cb1b142277',
+  level: 'error',
+  timestamp: '2020-11-04T11:35:36.856Z'
+}
+{
+  message: 'The board with id: 80959c32-1f7b-4aa7-84ed-d2faf854090a not found',
+  statusCode: 404,
+  url: 'http://localhost:4000/boards/80959c32-1f7b-4aa7-84ed-d2faf854090a',
+  level: 'error',
+  timestamp: '2020-11-04T11:35:37.095Z'
+}
+{
+  message: 'The task with id: 2df9cbc8-1d6e-4764-9048-bd3ea19a540a not found',
+  statusCode: 404,
+  url: 'http://localhost:4000/boards/6464bc97-032f-4862-92e1-2cca9f55da78/tasks/2df9cbc8-1d6e-4764-9048-bd3ea19a540a',
+  level: 'error',
+  timestamp: '2020-11-04T11:35:37.543Z'
+}
+{
+  message: 'The task with id: a9b5ec97-2a5b-43f2-8f1c-0493b5ccccf3 not found',
+  statusCode: 404,
+  url: 'http://localhost:4000/boards/6464bc97-032f-4862-92e1-2cca9f55da78/tasks/a9b5ec97-2a5b-43f2-8f1c-0493b5ccccf3',
+  level: 'error',
+  timestamp: '2020-11-04T11:35:37.563Z'
+}
+{
+  message: 'The task with id: 249ec651-1f67-4052-b7f2-c63dc59d1024 not found',
+  statusCode: 404,
+  url: 'http://localhost:4000/boards/6464bc97-032f-4862-92e1-2cca9f55da78/tasks/249ec651-1f67-4052-b7f2-c63dc59d1024',
+  level: 'error',
+  timestamp: '2020-11-04T11:35:37.574Z'
+}
+{
+  message: 'The task with id: 1b9c45f3-ad87-4592-ab10-7e7b060bdd4c not found',
+  statusCode: 404,
+  url: 'http://localhost:4000/boards/6464bc97-032f-4862-92e1-2cca9f55da78/tasks/1b9c45f3-ad87-4592-ab10-7e7b060bdd4c',
+  level: 'error',
+  timestamp: '2020-11-04T11:35:37.584Z'
+}
+{
+  message: 'The task with id: 0df30dbc-da58-4cc2-a4c7-36b00e362ed2 not found',
+  statusCode: 404,
+  url: 'http://localhost:4000/boards/6464bc97-032f-4862-92e1-2cca9f55da78/tasks/0df30dbc-da58-4cc2-a4c7-36b00e362ed2',
+  level: 'error',
+  timestamp: '2020-11-04T11:35:37.594Z'
+}
+{
+  message: 'Unauthorized user!',
+  statusCode: 401,
+  url: 'http://localhost:4000/users',
+  level: 'error',
+  timestamp: '2020-11-04T11:44:06.483Z'
+}
+{
+  message: 'Unauthorized user!',
+  statusCode: 401,
+  url: 'http://localhost:4000/boards/12345/tasks',
+  level: 'error',
+  timestamp: '2020-11-04T11:44:06.511Z'
+}
+{
+  message: 'Unauthorized user!',
+  statusCode: 401,
+  url: 'http://localhost:4000/boards',
+  level: 'error',
+  timestamp: '2020-11-04T11:44:06.515Z'
+}
+{
+  message: 'Unauthorized user!',
+  statusCode: 401,
+  url: 'http://localhost:4000/users/123',
+  level: 'error',
+  timestamp: '2020-11-04T11:44:06.527Z'
+}
+{
+  message: 'Unauthorized user!',
+  statusCode: 401,
+  url: 'http://localhost:4000/boards/12345/tasks/12345',
+  level: 'error',
+  timestamp: '2020-11-04T11:44:06.556Z'
+}
+{
+  message: 'Unauthorized user!',
+  statusCode: 401,
+  url: 'http://localhost:4000/boards/12345',
+  level: 'error',
+  timestamp: '2020-11-04T11:44:06.560Z'
+}
+{
+  message: 'Unauthorized user!',
+  statusCode: 401,
+  url: 'http://localhost:4000/users',
+  level: 'error',
+  timestamp: '2020-11-04T11:44:06.565Z'
+}
+{
+  message: 'Unauthorized user!',
+  statusCode: 401,
+  url: 'http://localhost:4000/boards/12345/tasks',
+  level: 'error',
+  timestamp: '2020-11-04T11:44:06.572Z'
+}
+{
+  message: 'Unauthorized user!',
+  statusCode: 401,
+  url: 'http://localhost:4000/boards',
+  level: 'error',
+  timestamp: '2020-11-04T11:44:06.576Z'
+}
+{
+  message: 'Unauthorized user!',
+  statusCode: 401,
+  url: 'http://localhost:4000/users/12345',
+  level: 'error',
+  timestamp: '2020-11-04T11:44:06.580Z'
+}
+{
+  message: 'Unauthorized user!',
+  statusCode: 401,
+  url: 'http://localhost:4000/boards/12345/tasks/12345',
+  level: 'error',
+  timestamp: '2020-11-04T11:44:06.593Z'
+}
+{
+  message: 'Unauthorized user!',
+  statusCode: 401,
+  url: 'http://localhost:4000/boards/12345',
+  level: 'error',
+  timestamp: '2020-11-04T11:44:06.598Z'
+}
+{
+  message: 'Unauthorized user!',
+  statusCode: 401,
+  url: 'http://localhost:4000/users/12345',
+  level: 'error',
+  timestamp: '2020-11-04T11:44:06.611Z'
+}
+{
+  message: 'Unauthorized user!',
+  statusCode: 401,
+  url: 'http://localhost:4000/boards/12345/tasks/12345',
+  level: 'error',
+  timestamp: '2020-11-04T11:44:06.650Z'
+}
+{
+  message: 'Unauthorized user!',
+  statusCode: 401,
+  url: 'http://localhost:4000/boards/12345',
+  level: 'error',
+  timestamp: '2020-11-04T11:44:06.666Z'
+}
+{
+  message: 'The task with id: 4d33db5e-9f53-46ea-85bb-c9c55ddb9c42 not found',
+  statusCode: 404,
+  url: 'http://localhost:4000/boards/9801f0d5-8310-44cb-bfd7-7e8f4f151eff/tasks/4d33db5e-9f53-46ea-85bb-c9c55ddb9c42',
+  level: 'error',
+  timestamp: '2020-11-04T11:44:07.728Z'
+}
+{
+  message: 'The board with id: a6049f22-5ad5-4d28-a4c1-e44f251307a8 not found',
+  statusCode: 404,
+  url: 'http://localhost:4000/boards/a6049f22-5ad5-4d28-a4c1-e44f251307a8',
+  level: 'error',
+  timestamp: '2020-11-04T11:44:07.905Z'
+}
+{
+  message: 'The task with id: b46c1b2f-0f68-411f-9bca-23665b51e6ce not found',
+  statusCode: 404,
+  url: 'http://localhost:4000/boards/caade573-d31c-4859-8866-7b5d33579aa3/tasks/b46c1b2f-0f68-411f-9bca-23665b51e6ce',
+  level: 'error',
+  timestamp: '2020-11-04T11:44:08.356Z'
+}
+{
+  message: 'The task with id: 2486fe5d-2b94-48d3-ae93-e2171a911a6b not found',
+  statusCode: 404,
+  url: 'http://localhost:4000/boards/caade573-d31c-4859-8866-7b5d33579aa3/tasks/2486fe5d-2b94-48d3-ae93-e2171a911a6b',
+  level: 'error',
+  timestamp: '2020-11-04T11:44:08.365Z'
+}
+{
+  message: 'The task with id: de429cf1-2008-4eb6-a624-5d4e8f0b9027 not found',
+  statusCode: 404,
+  url: 'http://localhost:4000/boards/caade573-d31c-4859-8866-7b5d33579aa3/tasks/de429cf1-2008-4eb6-a624-5d4e8f0b9027',
+  level: 'error',
+  timestamp: '2020-11-04T11:44:08.378Z'
+}
+{
+  message: 'The task with id: 5e0c257a-7443-418a-9b9d-d618bbffde95 not found',
+  statusCode: 404,
+  url: 'http://localhost:4000/boards/caade573-d31c-4859-8866-7b5d33579aa3/tasks/5e0c257a-7443-418a-9b9d-d618bbffde95',
+  level: 'error',
+  timestamp: '2020-11-04T11:44:08.382Z'
+}
+{
+  message: 'The task with id: 482ac663-bcfc-4125-b0ca-835cab1849e9 not found',
+  statusCode: 404,
+  url: 'http://localhost:4000/boards/caade573-d31c-4859-8866-7b5d33579aa3/tasks/482ac663-bcfc-4125-b0ca-835cab1849e9',
+  level: 'error',
+  timestamp: '2020-11-04T11:44:08.397Z'
+}
+{
+  message: 'Unauthorized user!',
+  statusCode: 401,
+  url: 'http://localhost:4000/boards',
+  level: 'error',
+  timestamp: '2020-11-06T03:11:28.356Z'
+}
+{
+  message: 'Unauthorized user!',
+  statusCode: 401,
+  url: 'http://localhost:4000/boards/12345/tasks',
+  level: 'error',
+  timestamp: '2020-11-06T03:11:28.364Z'
+}
+{
+  message: 'Unauthorized user!',
+  statusCode: 401,
+  url: 'http://localhost:4000/users',
+  level: 'error',
+  timestamp: '2020-11-06T03:11:28.380Z'
+}
+{
+  message: 'Unauthorized user!',
+  statusCode: 401,
+  url: 'http://localhost:4000/boards/12345',
+  level: 'error',
+  timestamp: '2020-11-06T03:11:28.394Z'
+}
+{
+  message: 'Unauthorized user!',
+  statusCode: 401,
+  url: 'http://localhost:4000/boards/12345/tasks/12345',
+  level: 'error',
+  timestamp: '2020-11-06T03:11:28.401Z'
+}
+{
+  message: 'Unauthorized user!',
+  statusCode: 401,
+  url: 'http://localhost:4000/users/123',
+  level: 'error',
+  timestamp: '2020-11-06T03:11:28.411Z'
+}
+{
+  message: 'Unauthorized user!',
+  statusCode: 401,
+  url: 'http://localhost:4000/boards',
+  level: 'error',
+  timestamp: '2020-11-06T03:11:28.447Z'
+}
+{
+  message: 'Unauthorized user!',
+  statusCode: 401,
+  url: 'http://localhost:4000/boards/12345/tasks',
+  level: 'error',
+  timestamp: '2020-11-06T03:11:28.459Z'
+}
+{
+  message: 'Unauthorized user!',
+  statusCode: 401,
+  url: 'http://localhost:4000/users',
+  level: 'error',
+  timestamp: '2020-11-06T03:11:28.475Z'
+}
+{
+  message: 'Unauthorized user!',
+  statusCode: 401,
+  url: 'http://localhost:4000/boards/12345',
+  level: 'error',
+  timestamp: '2020-11-06T03:11:28.479Z'
+}
+{
+  message: 'Unauthorized user!',
+  statusCode: 401,
+  url: 'http://localhost:4000/boards/12345/tasks/12345',
+  level: 'error',
+  timestamp: '2020-11-06T03:11:28.491Z'
+}
+{
+  message: 'Unauthorized user!',
+  statusCode: 401,
+  url: 'http://localhost:4000/users/12345',
+  level: 'error',
+  timestamp: '2020-11-06T03:11:28.495Z'
+}
+{
+  message: 'Unauthorized user!',
+  statusCode: 401,
+  url: 'http://localhost:4000/boards/12345',
+  level: 'error',
+  timestamp: '2020-11-06T03:11:28.499Z'
+}
+{
+  message: 'Unauthorized user!',
+  statusCode: 401,
+  url: 'http://localhost:4000/boards/12345/tasks/12345',
+  level: 'error',
+  timestamp: '2020-11-06T03:11:28.508Z'
+}
+{
+  message: 'Unauthorized user!',
+  statusCode: 401,
+  url: 'http://localhost:4000/users/12345',
+  level: 'error',
+  timestamp: '2020-11-06T03:11:28.514Z'
+}
+{
+  message: 'The task with id: 4a326651-e3f5-4a5b-bbcb-3b75e3982118 not found',
+  statusCode: 404,
+  url: 'http://localhost:4000/boards/d8d8e52a-59a2-48b1-9146-6ab2c82dfdb0/tasks/4a326651-e3f5-4a5b-bbcb-3b75e3982118',
+  level: 'error',
+  timestamp: '2020-11-06T03:11:29.575Z'
+}
+{
+  message: 'The board with id: 0b69ee6a-cb25-418f-a0c7-58d1f3f5927b not found',
+  statusCode: 404,
+  url: 'http://localhost:4000/boards/0b69ee6a-cb25-418f-a0c7-58d1f3f5927b',
+  level: 'error',
+  timestamp: '2020-11-06T03:11:29.810Z'
+}
+{
+  message: 'The task with id: 127c4210-8b0a-4caf-b862-8e8b114e7520 not found',
+  statusCode: 404,
+  url: 'http://localhost:4000/boards/b9d3aea4-0cdc-4754-b58e-8dd3e37f2447/tasks/127c4210-8b0a-4caf-b862-8e8b114e7520',
+  level: 'error',
+  timestamp: '2020-11-06T03:11:30.229Z'
+}
+{
+  message: 'The task with id: 90afae30-1076-4736-b4d0-b5fc1419bd0a not found',
+  statusCode: 404,
+  url: 'http://localhost:4000/boards/b9d3aea4-0cdc-4754-b58e-8dd3e37f2447/tasks/90afae30-1076-4736-b4d0-b5fc1419bd0a',
+  level: 'error',
+  timestamp: '2020-11-06T03:11:30.239Z'
+}
+{
+  message: 'The task with id: ab5c091f-872e-46aa-94b9-12c8a192fc66 not found',
+  statusCode: 404,
+  url: 'http://localhost:4000/boards/b9d3aea4-0cdc-4754-b58e-8dd3e37f2447/tasks/ab5c091f-872e-46aa-94b9-12c8a192fc66',
+  level: 'error',
+  timestamp: '2020-11-06T03:11:30.243Z'
+}
+{
+  message: 'The task with id: a36558ad-278e-4abc-9f40-f1f5249ce288 not found',
+  statusCode: 404,
+  url: 'http://localhost:4000/boards/b9d3aea4-0cdc-4754-b58e-8dd3e37f2447/tasks/a36558ad-278e-4abc-9f40-f1f5249ce288',
+  level: 'error',
+  timestamp: '2020-11-06T03:11:30.246Z'
+}
+{
+  message: 'The task with id: 445b7677-0de3-409f-b421-f64d5fab1358 not found',
+  statusCode: 404,
+  url: 'http://localhost:4000/boards/b9d3aea4-0cdc-4754-b58e-8dd3e37f2447/tasks/445b7677-0de3-409f-b421-f64d5fab1358',
+  level: 'error',
+  timestamp: '2020-11-06T03:11:30.249Z'
+}
+{
+  message: 'Unauthorized user!',
+  statusCode: 401,
+  url: 'http://localhost:4000/users',
+  level: 'error',
+  timestamp: '2020-11-07T23:51:47.596Z'
+}
+{
+  message: 'Unauthorized user!',
+  statusCode: 401,
+  url: 'http://localhost:4000/users',
+  level: 'error',
+  timestamp: '2021-02-22T22:45:35.371Z'
+}
+{
+  message: 'Unauthorized user!',
+  statusCode: 401,
+  url: 'http://localhost:4000/users',
+  level: 'error',
+  timestamp: '2021-02-22T22:48:29.054Z'
+}
+{
+  message: 'Unauthorized user!',
+  statusCode: 401,
+  url: 'http://localhost:4000/users',
+  level: 'error',
+  timestamp: '2021-02-22T22:48:31.980Z'
+}
+{
+  message: 'querySrv ECONNREFUSED _mongodb._tcp.rsschool.9hvpz.mongodb.net',
+  statusCode: undefined,
+  level: 'error',
+  timestamp: '2021-03-18T08:30:40.102Z'
+}
+{
+  message: 'querySrv ECONNREFUSED _mongodb._tcp.rsschool.9hvpz.mongodb.net',
+  statusCode: undefined,
+  level: 'error',
+  timestamp: '2021-03-18T08:31:11.742Z'
+}
+{
+  message: "Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://docs.atlas.mongodb.com/security-whitelist/",
+  statusCode: undefined,
+  level: 'error',
+  timestamp: '2021-03-18T14:54:38.892Z'
+}
+{
+  message: "Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://docs.atlas.mongodb.com/security-whitelist/",
+  statusCode: undefined,
+  level: 'error',
+  timestamp: '2021-03-18T14:56:02.503Z'
+}

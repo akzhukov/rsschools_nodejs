@@ -1,4 +1,5 @@
 const express = require('express');
+const cors = require('cors');
 require('express-async-errors');
 const swaggerUI = require('swagger-ui-express');
 const path = require('path');
@@ -14,6 +15,7 @@ const { handleError } = require('./helpers/error');
 const { INTERNAL_SERVER_ERROR } = require('http-status-codes');
 
 const app = express();
+app.use(cors());
 const swaggerDocument = YAML.load(path.join(__dirname, '../doc/api.yaml'));
 
 app.use(express.json());
@@ -26,9 +28,12 @@ app.use((req, res, next) => {
 });
 
 app.use('/login', authRouter);
-app.use('/users', checkToken, userRouter);
-app.use('/boards', checkToken, boardRouter);
-app.use('/boards', checkToken, taskRouter);
+// app.use('/users', checkToken, userRouter);
+// app.use('/boards', checkToken, boardRouter);
+// boardRouter.use('/:boardId/tasks', checkToken, taskRouter);
+app.use('/users',  userRouter);
+app.use('/boards',  boardRouter);
+boardRouter.use('/:boardId/tasks',  taskRouter);
 
 app.use((err, req, res, next) => {
   handleError(err, res);

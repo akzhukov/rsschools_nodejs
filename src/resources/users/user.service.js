@@ -2,15 +2,16 @@ const usersRepo = require('./user.db.repository');
 const { hashPassword } = require('../../helpers/hashHelpers');
 const { NOT_FOUND } = require('http-status-codes');
 const { ErrorInfo } = require('../../helpers/error');
+const User = require('./user.model');
 
-const getAll = async () => usersRepo.getAll();
+const getAll = async (skip = 0, limit = 0, filter="") => usersRepo.getAll(skip, limit, filter);
 
 const get = async id => {
   const user = await usersRepo.get(id);
   if (!user) {
     throw new ErrorInfo(NOT_FOUND, `The user with id: ${id} not found`);
   }
-  return user;
+  return User.toResponse(user);
 };
 
 const getByLogin = async login => {

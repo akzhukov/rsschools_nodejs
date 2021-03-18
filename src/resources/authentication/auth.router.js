@@ -8,7 +8,7 @@ router.route('/').post(async (req, res, next) => {
 
   const token = await authService.signToken(login, password);
   if (!token) {
-    return next(new ErrorInfo(FORBIDDEN, 'Wrong login/password combination!'));
+    return next(new ErrorInfo(FORBIDDEN, 'Wrong login/password combination!')); // нет токена
   }
   res.status(OK).json({ token });
 });

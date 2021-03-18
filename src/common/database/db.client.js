@@ -11,6 +11,24 @@ const addAdminUser = async () => {
     password: hashedPassword,
     id: 1
   });
+  User.create({
+    name: 'Nikita',
+    login: 'Nikitos',
+    password: 321,
+    id: 14
+  });
+  User.create({
+    name: 'Sergei',
+    login: 'Sergo',
+    password: 412,
+    id: 16
+  });
+  User.create({
+    name: 'Gosha',
+    login: 'Goshan',
+    password: 654,
+    id: 11
+  });
 };
 
 const connect = (MONGO_CONNECTION_STRING, cb) => {

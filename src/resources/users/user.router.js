@@ -4,13 +4,16 @@ const usersService = require('./user.service');
 const { OK } = require('http-status-codes');
 
 router.route('/').get(async (req, res) => {
-  const users = await usersService.getAll();
+  const skip = parseInt(req.query.skip);
+  const limit = parseInt(req.query.limit);
+  const filter = req.query.filter;
+  const users = await usersService.getAll(skip, limit, filter);
   res.json(users.map(User.toResponse));
 });
 
 router.route('/:id').get(async (req, res) => {
-  const user = await usersService.get(req.params.id);
-  res.status(OK).json(User.toResponse(user));
+  const user = await usersService.get(req.params.id); 
+  res.status(OK).json(user);
 });
 
 router.route('/').post(async (req, res) => {
