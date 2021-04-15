@@ -31,9 +31,9 @@ app.use('/login', authRouter);
 // app.use('/users', checkToken, userRouter);
 // app.use('/boards', checkToken, boardRouter);
 // boardRouter.use('/:boardId/tasks', checkToken, taskRouter);
-app.use('/users',  userRouter);
-app.use('/boards',  boardRouter);
-boardRouter.use('/:boardId/tasks',  taskRouter);
+app.use('/users', userRouter);
+app.use('/boards', boardRouter);
+boardRouter.use('/:boardId/tasks', taskRouter);
 
 app.use((err, req, res, next) => {
   handleError(err, res);

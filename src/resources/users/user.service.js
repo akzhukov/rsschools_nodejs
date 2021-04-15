@@ -4,7 +4,8 @@ const { NOT_FOUND } = require('http-status-codes');
 const { ErrorInfo } = require('../../helpers/error');
 const User = require('./user.model');
 
-const getAll = async (skip = 0, limit = 0, filter="") => usersRepo.getAll(skip, limit, filter);
+const getAll = async (skip = 0, limit = 0, filter = '', sort = -1) =>
+  usersRepo.getAll(skip, limit, filter, sort);
 
 const get = async id => {
   const user = await usersRepo.get(id);

@@ -39,8 +39,8 @@ const connect = (MONGO_CONNECTION_STRING, cb) => {
     })
     .then(async () => {
       console.log('MongoDB connected');
-      await mongoose.connection.dropDatabase();
-      await addAdminUser();
+      //await mongoose.connection.dropDatabase();
+      //await addAdminUser();
       cb();
     })
     .catch(error => {

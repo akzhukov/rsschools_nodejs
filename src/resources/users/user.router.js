@@ -7,12 +7,13 @@ router.route('/').get(async (req, res) => {
   const skip = parseInt(req.query.skip);
   const limit = parseInt(req.query.limit);
   const filter = req.query.filter;
-  const users = await usersService.getAll(skip, limit, filter);
+  const sort = parseInt(req.query.sort);
+  const users = await usersService.getAll(skip, limit, filter, sort);
   res.json(users.map(User.toResponse));
 });
 
 router.route('/:id').get(async (req, res) => {
-  const user = await usersService.get(req.params.id); 
+  const user = await usersService.get(req.params.id);
   res.status(OK).json(user);
 });
 

@@ -1,7 +1,16 @@
 const User = require('./user.model');
 const Task = require('../tasks/task.model');
 
-const getAll = async (skip, limit, filter) => User.find({ login: {$regex : ".*Nik.*",'$options' : 'i'} }).skip(skip).limit(limit);
+const getAll = async (skip, limit, filter, sort) =>
+  User.find({
+    $or: [
+      { login: { $regex: '.*' + filter + '.*', $options: 'i' } },
+      { name: { $regex: '.*' + filter + '.*', $options: 'i' } }
+    ]
+  })
+    .sort({ 'name': sort })
+    .skip(skip)
+    .limit(limit);
 
 const get = async id => User.findById(id);
 

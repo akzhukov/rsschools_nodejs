@@ -19,3 +19,15 @@ h1 {
   margin-top: 5%;
   margin-bottom: 5%;
 }
+
+.filters {
+  align-content: left;
+}
+
+#filters-form{
+  padding-top: 30px;
+}
+
+.control-buttons{
+  align-content: right;
+}

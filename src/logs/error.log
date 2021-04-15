@@ -785,3 +785,23 @@
   level: 'error',
   timestamp: '2021-03-18T14:56:02.503Z'
 }
+{
+  message: 'Unexpected token " in JSON at position 0',
+  statusCode: 400,
+  url: 'http://localhost:4000/users',
+  level: 'error',
+  timestamp: '2021-04-15T02:41:14.483Z'
+}
+{
+  message: 'Unexpected token " in JSON at position 0',
+  statusCode: 400,
+  url: 'http://localhost:4000/users',
+  level: 'error',
+  timestamp: '2021-04-15T02:41:53.802Z'
+}
+{
+  message: 'querySrv ECONNREFUSED _mongodb._tcp.rsschool.9hvpz.mongodb.net',
+  statusCode: undefined,
+  level: 'error',
+  timestamp: '2021-04-15T08:20:11.076Z'
+}
